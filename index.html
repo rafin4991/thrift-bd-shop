@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thrift BD</title>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      background:#f5f5f5;
+      color:#111;
+    }
+
+    .hero{
+      width:100%;
+      min-height:100vh;
+      background:
+      linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+      url('https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1400&auto=format&fit=crop');
+      background-size:cover;
+      background-position:center;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      padding:20px;
+    }
+
+    .hero-content{
+      max-width:700px;
+    }
+
+    .hero h1{
+      color:#ff6b35;
+      font-size:58px;
+      margin-bottom:20px;
+      font-weight:bold;
+    }
+
+    .hero p{
+      color:#f1f1f1;
+      font-size:22px;
+      line-height:1.7;
+      margin-bottom:35px;
+    }
+
+    .btn{
+      display:inline-block;
+      text-decoration:none;
+      background:#ff6b35;
+      color:white;
+      padding:16px 40px;
+      border-radius:12px;
+      font-size:20px;
+      font-weight:bold;
+      transition:0.3s;
+      box-shadow:0 0 20px rgba(255,107,53,0.5);
+    }
+
+    .btn:hover{
+      transform:translateY(-4px);
+      background:#ff7f50;
+      box-shadow:0 0 30px rgba(255,107,53,0.9);
+    }
+
+    .features{
+      padding:80px 8%;
+      background:white;
+    }
+
+    .title{
+      text-align:center;
+      font-size:40px;
+      margin-bottom:55px;
+      color:#ff6b35;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:30px;
+    }
+
+    .card{
+      background:#fff;
+      padding:40px 25px;
+      border-radius:20px;
+      text-align:center;
+      box-shadow:0 5px 25px rgba(0,0,0,0.08);
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-8px);
+      box-shadow:0 12px 35px rgba(0,0,0,0.15);
+    }
+
+    .icon{
+      font-size:55px;
+      margin-bottom:18px;
+    }
+
+    .card h3{
+      font-size:26px;
+      margin-bottom:12px;
+    }
+
+    .card p{
+      color:#666;
+      line-height:1.7;
+      font-size:16px;
+    }
+
+    footer{
+      background:#111;
+      color:#ccc;
+      text-align:center;
+      padding:22px;
+      font-size:15px;
+    }
+
+    @media(max-width:900px){
+
+      .grid{
+        grid-template-columns:1fr;
+      }
+
+      .hero h1{
+        font-size:42px;
+      }
+
+      .hero p{
+        font-size:18px;
+      }
+
+    }
+
+    @media(max-width:500px){
+
+      .hero h1{
+        font-size:34px;
+      }
+
+      .hero p{
+        font-size:16px;
+      }
+
+      .btn{
+        font-size:18px;
+        padding:14px 30px;
+      }
+
+      .title{
+        font-size:32px;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <h1>Welcome to Thrift BD</h1>
+
+      <p>
+        বাংলাদেশের আধুনিক অনলাইন শপিং অভিজ্ঞতা
+      </p>
+
+      <a href="https://app-bcw0jbcimq69.appmedo.com/" class="btn">
+        Start Shopping
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <section class="features">
+
+    <h2 class="title">Explore</h2>
+
+    <div class="grid">
+
+      <div class="card">
+
+        <div class="icon">🛍️</div>
+
+        <h3>Trendy Collection</h3>
+
+        <p>
+          আধুনিক এবং স্টাইলিশ কালেকশন।
+        </p>
+
+      </div>
+
+
+      <div class="card">
+
+        <div class="icon">✨</div>
+
+        <h3>Premium Style</h3>
+
+        <p>
+          মিনিমাল এবং প্রিমিয়াম শপিং অভিজ্ঞতা।
+        </p>
+
+      </div>
+
+
+      <div class="card">
+
+        <div class="icon">📱</div>
+
+        <h3>Easy Shopping</h3>
+
+        <p>
+          সহজ এবং স্মুথ মোবাইল শপিং সিস্টেম।
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <footer>
+    © 2026 Thrift BD
+  </footer>
+
+</body>
+</html>
